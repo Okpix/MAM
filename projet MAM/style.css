@@ -1,0 +1,44 @@
+
+/* généralités*/
+
+html{
+    margin: 0;
+    padding: 0;
+}
+.space{
+    height: 80px;
+}
+h1{
+    color: #fff;
+}
+/* header */
+.navbar li a{
+    color: #fff !important;
+}
+.navbar li a:hover{
+    color: #83d1c1;
+    border-bottom: 1px solid #83d1c1 !important;
+}
+header{
+    display: block;
+}
+
+.bleu{
+    background: #575757;
+}
+/* body */
+section{
+    display: flex;
+}
+.p{
+    margin: 5vh;
+}
+/* footer */
+.bi-chevron-up{
+    color: #fff;
+}
+footer{
+    color: #fff;
+    bottom: 0;
+    height: 20vh;
+}
