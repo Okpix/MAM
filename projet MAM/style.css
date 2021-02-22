@@ -12,13 +12,17 @@ h1{
     color: #fff;
 }
 /* header */
-.navbar li a{
+.nav-link{
+    color: #212227 !important;
+}
+.nav-link.active{
     color: #fff !important;
 }
-.navbar li a:hover{
+
+/*.navbar li a:hover{
     color: #83d1c1;
     border-bottom: 1px solid #83d1c1 !important;
-}
+}*/
 header{
     display: block;
 }
@@ -38,7 +42,9 @@ section{
     color: #fff;
 }
 footer{
+    position: relative;
     color: #fff;
     bottom: 0;
     height: 20vh;
+    width: 100%;
 }
