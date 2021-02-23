@@ -10,6 +10,17 @@ html{
 }
 h1{
     color: #fff;
+    font-size: 4vh !important;
+}
+h2{
+    color: #fff;
+    font-size: 8vh;
+}
+p{
+    font-size: 1.7vh;
+}
+a{
+    font-size: 2vh;
 }
 /* header */
 .nav-link{
@@ -17,12 +28,13 @@ h1{
 }
 .nav-link.active{
     color: #fff !important;
+    border-bottom: 1px solid #fff;
 }
 
-/*.navbar li a:hover{
-    color: #83d1c1;
-    border-bottom: 1px solid #83d1c1 !important;
-}*/
+.nav-link:hover{
+    color: #fff !important;
+    border-bottom: 1px solid #fff !important;
+}
 header{
     display: block;
 }
@@ -35,14 +47,13 @@ section{
     display: flex;
 }
 .p{
-    margin: 5vh;
+    margin: 1vh;
 }
 /* footer */
 .bi-chevron-up{
     color: #fff;
 }
 footer{
-    position: relative;
     color: #fff;
     bottom: 0;
     height: 20vh;
